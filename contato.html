@@ -1,0 +1,82 @@
+<!--
+Descricao: Situação de Aprendizagem 01 - Site de Loja Virtual (Mercado Delivery)
+nome_arquivo: contato.html
+nome_exercicio: Situação de Aprendizagem 01 - Projeto Intermediário
+nome_aluno: Pedro Henrique de Sousa Martins
+email_aluno: pedro.martins55@aluno.cps.sp.gov.br
+turma: A1129-N-D.S.M.-312-20262
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Cesta Cheia - Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mercado Cesta Cheia</h1>
+        <p>Delivery de mercado na porta da sua casa</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Faça seu pedido ou fale conosco</h2>
+            <p>Preencha o formulário abaixo e entraremos em contato.</p>
+
+            <form action="#" method="post">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="endereco">Endereço de entrega:</label>
+                <input type="text" id="endereco" name="endereco">
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="pedido">Fazer um pedido</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Horário de atendimento</h3>
+            <ul>
+                <li>Segunda a sexta: 8h às 20h</li>
+                <li>Sábado: 8h às 18h</li>
+                <li>Domingo: 8h às 12h</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mercado Cesta Cheia - Todos os direitos reservados.</p>
+        <p>Site desenvolvido para fins acadêmicos.</p>
+    </footer>
+
+</body>
+</html>
