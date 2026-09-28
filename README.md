@@ -2,8 +2,8 @@
 
 Projeto da **Situação de Aprendizagem 01** - site de Loja Virtual Institucional de um mercado com entrega em domicílio.
 
-**Aluno:** Pedro Henrique de Sousa Martins
-**Turma:** A1129-N-D.S.M.-312-20262
+- **Aluno:** Pedro Henrique de Sousa Martins
+- **Turma:** A1129-N-D.S.M.-312-20262
 
 ## Páginas
 
@@ -41,6 +41,10 @@ mercado-delivery/
 |  FOOTER: direitos reservados      |
 +-----------------------------------+
 ```
+
+## Site publicado
+
+https://semmenor1-afk.github.io/mercado-delivery/
 
 ## Tecnologias
 
