@@ -1,0 +1,170 @@
+/*
+Descricao: Situação de Aprendizagem 01 - Site de Loja Virtual (Mercado Delivery)
+nome_arquivo: style.css
+nome_exercicio: Situação de Aprendizagem 01 - Projeto Intermediário
+nome_aluno: Pedro Henrique de Sousa Martins
+email_aluno: pedro.martins55@aluno.cps.sp.gov.br
+turma: A1129-N-D.S.M.-312-20262
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 150px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #e68900;
+}
+
+.produto {
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.produto img {
+    width: 100px;
+    height: 100px;
+}
+
+.produto h3 {
+    margin: 10px 0 5px 0;
+}
+
+.preco {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 5px 0;
+}
